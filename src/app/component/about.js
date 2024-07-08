@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">JUDEJUDE</a>
+    <a className="navbar-brand" href="#">Logo</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
@@ -17,18 +17,18 @@ export default function Home() {
           <a className="nav-link active" aria-current="page" href="page.js">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://getbootstrap.com/docs/5.3/examples/blog/">About</a>
+          <a className="nav-link" href="about.js">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://getbootstrap.com/docs/5.3/examples/jumbotron/">Service</a>
+          <a className="nav-link" href="service.js">Service</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://getbootstrap.com/docs/5.3/examples/checkout/">Contact</a>
+          <a className="nav-link" href="contact.js">Contact</a>
         </li>
       </ul>
       <form className="d-flex" role="search">
-      <button className="btn btn-outline-success" type="submit">Sigup</button>
-        <button className="btn btn-outline-success" type="submit">Signin</button>
+      <button className="btn btn-outline-success" type="submit">Sig up</button>
+        <button className="btn btn-outline-success" type="submit">Sign in</button>
       </form>
     </div>
   </div>
