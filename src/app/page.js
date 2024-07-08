@@ -14,16 +14,16 @@ export default function Home() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="page.js">Home</a>
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://getbootstrap.com/docs/5.3/examples/blog/">About</a>
+          <a className="nav-link" href="/about">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://getbootstrap.com/docs/5.3/examples/jumbotron/">Service</a>
+          <a className="nav-link" href="/sv">Service</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://getbootstrap.com/docs/5.3/examples/checkout/">Contact</a>
+          <a className="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
       <form className="d-flex" role="search">
